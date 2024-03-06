@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images//pexels-david-skyrius-2129796.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.pezoLogo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.first{
+    /* border: 2px solid tomato; */
+    height: 200px;
+    display: flex;
+}
+.left{
+    /* border: 2px solid rgb(255, 71, 230); */
+    height: 200px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left span{
+    text-decoration: line-through;
+    color: rgba(177, 176, 176,0.5);
+}
+.right{
+    /* border: 2px solid rgb(255, 71, 230); */
+    height: 200px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
