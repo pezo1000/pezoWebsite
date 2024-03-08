@@ -38,6 +38,8 @@ a{
     /* border: 2px solid rgb(126, 71, 255); */
     display: flex;
     justify-content: space-evenly;
+
+
    
 }
 .card{
@@ -56,4 +58,5 @@ a{
 .catName{
     text-align: center;
     color: white;
+    font-size: 20px;
 }

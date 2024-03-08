@@ -1,0 +1,74 @@
+/* mobile view for home page  */
+@media only screen and (max-width: 600px){
+    .wesell{
+        font-size: 18px;
+    }
+    .first {
+        /* border: 2px solid tomato; */
+        height: 300px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images//pexels-david-skyrius-2129796.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+    }
+    .destopImage{
+        height: 150px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .carousel-inner{
+        width: 80%;
+
+    }
+
+
+
+
+
+}
+
+/* mobile view for category  page  */
+@media only screen and (max-width: 600px){
+    .body{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images//pexels-david-skyrius-2129796.jpg);
+        background-size: cover;
+        height: 300vh;
+    }
+
+    .cardContainer{
+        /* border: 2px solid rgb(126, 71, 255); */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    
+    
+       
+    }
+    .card{
+        /* border: 2px solid rgb(255, 71, 71); */
+        height: 200px;
+        width: 60%;
+    }
+    .catName{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+
+
+
+
+}
+
+/* mobile view for charger  page  */
+@media only screen and (max-width: 600px){
+
+
+
+
+
+
+
+}
